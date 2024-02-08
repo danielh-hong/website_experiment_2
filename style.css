@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+
 * {
   margin: 0;
   padding: 0;
@@ -338,8 +339,8 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
-  justify-content: space-between; /* initially space-around*/
+  gap: 1.5rem;
+  justify-content: space-around; /* initially space-around*/
 }
 
 article { /* changed from initial code*/
@@ -347,6 +348,7 @@ article { /* changed from initial code*/
   width: 10rem;
   justify-content: flex-start; /* Change this to flex-end if you want the items to align to the end */
   gap: 0.5rem;
+  margin-bottom: 2rem; /* Increase this value to add more space between rows */
 }
 
 article .icon {
@@ -361,7 +363,7 @@ article .icon {
 }
 
 #projects {
-  margin-top: 150px; /* Adjust this value as needed */
+  margin-top: 3rem; /* Adjust this value as needed */
 }
 
 .color-container {

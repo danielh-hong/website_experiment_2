@@ -19,6 +19,12 @@
     .experience-details-container {
       margin-top: 2rem;
     }
+
+    #experience
+    .experienece-details-container {
+      margin-bottom: 3rem;
+    }
+
     #profile,
     .section-container {
       display: block;
