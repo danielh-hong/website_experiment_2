@@ -264,17 +264,19 @@ section {
 
 /* ABOUT SECTION */
 
-#about {
+
+#about {  
   position: relative;
-}
+} 
 
 .about-containers {
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  gap: 2rem; /* width gap between containers */
+  margin-bottom: 1rem; /* Originally 2rem */
+  margin-top: 0rem; /* Originally 2rem */
 }
 
 .about-details-container {
+  
   justify-content: center;
   flex-direction: column;
 }
@@ -295,17 +297,26 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
   flex: 1;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
 }
 
 .section-container {
-  gap: 4rem;
+  gap: 2rem;
   height: 80%;
 }
 
